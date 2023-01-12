@@ -13,7 +13,7 @@ import cucumber.api.junit.Cucumber;
 		plugin={"html:target"},
 		dryRun=false,
 		monochrome=true,
-		tags="@logout"
+		tags={"@login,@logout"}
 		)
 
 public class TestRunner {
